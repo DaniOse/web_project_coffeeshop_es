@@ -51,24 +51,33 @@
                 <img class="background-header-image" src="./images/background_header.svg" alt="background header">
              </div>
         </header>
-     <main class="reservation">
-        <h2 class="reservation-title">Reservar una mesa</h2>
-            <img class="background-reservation" src="./images/background_reservation.svg" alt="background reservation">
-         <div class="form-container">
-            <form>
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="date">Fecha:</label>
-                <input type="date" id="date" name="date" required>
-                <label for="time">Hora:</label>
-                <input type="time" id="time" name="time" required>
-                <button type="submit">Reservar</button>
-            </form>
-         </div>
-     </main>
+<main class="reservation">
+        <section class="reservation-section">
+            <div class="form-container">
+                 <h3 class="reservation__title">Reservar una mesa</h3>
+                 <img class="background-reservation" src="./images/background_reservation.svg" alt="background reservation">
+                <form class="reservation__form">
+                    <label class="reservation__form-label" for="name">Nombre*</label>
+                        <input class="reservation__form-input" type="text" id="name" required>
+                    <label class="reservation__form-label" for="number">Número de comensales*</label>
+                        <input class="reservation__form-input" type="number" id="number" min="1" max="8" required>
+                    <label class="reservation__form-label" for="email">Tu correo electrónico*</label>
+                         <input class="reservation__form-input" type="email" id="email"  required>
+                    <label class="reservation__form-label" for="datetime">Fecha y hora*</label>
+                        <input class="reservation__form-input" type="datetime-local" id="datetime" required>
+                    
+                       <button class="reservation__form-button" type="submit">Reservar una mesa</button>
+                     <div class="checkbox__terms">
+                         
+                        <label class="checkbox__terms_label" for="terms"><input class="checkbox__terms_button" type="checkbox" id="terms" name="terms" required />Acepto los términos de uso</label>
+                    </div> 
+                </form>
+             </div>  
+        </section>     
+</main>
         <footer class="footer">
+            <img src="./images/logo_coffeeshop_dark.svg" alt="Triple Expresso">
+            <p class="footer-text">© 2026 Brandon Oseida</p>
         </footer>
      </body>
 </html>
