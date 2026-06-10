@@ -99,3 +99,7 @@ ul{
     top: 0;
     right: 0;
     z-index: -1;}
+main{
+    background-color: #ffd6c5 url("./images/background_reservation.svg"); 
+
+}
