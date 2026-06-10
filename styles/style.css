@@ -160,6 +160,7 @@ main{
     padding: 15px 20px;
     width: 100%;
     box-sizing: border-box;
+    height: 60px;
 }
 .checkbox__terms{
     display: flex;
@@ -180,9 +181,9 @@ main{
     border: none;
     padding: 12px 32px;
     border-radius: 4px;
-    margin-top: 60px;
+    margin-top: 0;
     margin-bottom: 32px;
-
+    height: 60px;
 
 }
 .reservation__form-input::placeholder{
