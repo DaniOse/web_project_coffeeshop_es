@@ -197,6 +197,9 @@ main{
 .reservation__form-input::placeholder{
     color: #838383;
 }
+.reservation__form-button:hover{
+    opacity: 70%;
+}
 footer{
     background: #d35722;
     position: relative;
@@ -267,9 +270,6 @@ footer{
     line-height: 20px;
     align-items: column;
 }
-.footer__nav-item{
-    margin-bottom: 16px;
-}
 .footer__nav-icon{
     width: 16px;
     height: 16px;
@@ -286,4 +286,7 @@ footer{
     margin-top: 108px;
     bottom: 60px;
     z-index: 1;
+}
+.footer__nav-links a:hover{
+    color: #ffd6c5;
 }
