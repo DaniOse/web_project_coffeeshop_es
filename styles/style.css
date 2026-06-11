@@ -167,8 +167,16 @@ main{
     justify-content: center;
 }
 .checkbox__terms_button{
-    margin: 20px 20px;
+    margin: 0 12px 0 0;
+    width: 20px;
+    height: 20px;  
     border-radius: 2px;
+}
+.checkbox__terms_label{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
 }
 .reservation__form-button{
     font-family: "Inter", Arial, sans-serif;
@@ -190,7 +198,73 @@ main{
     color: #838383;
 }
 footer{
-    background: #d35722 url("./images/background_footer.svg");
+    background: #d35722;
+    position: relative;
     display: flex;
     justify-content: space-between;
+    min-height: 240px;
+    padding: 60px 80px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+.footer__circle{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background-color: #ff976b;
+    border-radius: 50%;
+    top: -128px;
+    left: -84px;
+}
+.footer__logo{
+    width: 105px;
+    height: 39px;
+    position: relative;
+    z-index: 1;
+}
+.footer-nav{
+    position: relative;
+    z-index: 1;
+}
+.footer__nav-title{
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 20px;
+    margin: 0 0 20px;
+    color: #fff;
+}
+.footer__nav-links a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer__nav-links ul{
+    list-style: none;
+}
+.footer__nav-item{
+    margin-bottom: 16px;
+}
+.footer__nav-icon{
+    width: 16px;
+    height: 16px;
+}
+.footer__copyright{
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-top: 108px;
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    z-index: 1;
 }
